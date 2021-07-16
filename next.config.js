@@ -5,7 +5,7 @@ module.exports = withLess({
   env: {
     // PUBLIC_URL: 'https://www.beemines.ml',
     PUBLIC_URL: "http://localhost:3000",
-    // wpURL: "http://wpecommerce.local",
+    wpURL: "https://beeminesapi-ml.stackstaging.com",
     consumerKey: "ck_7d7bda92f5ef41b3d0aa2619a790b02344af2e27",
     consumerSecret: "cs_51e665d38dba7968515bc789694aa286bdb0337c",
     sessionSecret: "5EBE2294ECD0E0F08EAB7690D2A6EE69",

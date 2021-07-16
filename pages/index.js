@@ -49,7 +49,7 @@ export async function getServerSideProps() {
     consumer_secret: "cs_3ee1fae59534719e4dda214ffa5ca0c64f6cba04",
   });
   const res = await fetch(
-    `https://beeminesapi-ml.stackstaging.com/wp-json/wc/v3/products?${oauth.toString()}`
+    `${process.env.wpURL}/wp-json/wc/v3/products?${oauth.toString()}`
   );
   const products = await res.json();
   // console.log(`i am from line 55 of index.js, ${products}`);

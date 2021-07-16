@@ -5,7 +5,7 @@ import { withSession } from "../middlewares/session";
 import Link from "next/link";
 
 const login = ({ user }) => {
-  const router = useRouter();
+  const router = useRouter()
 
   const {
     register,
